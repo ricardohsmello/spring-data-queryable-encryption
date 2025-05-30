@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: hrsystem
+      encryption:
+        crypt-lib-path: ${CRYPT_LIB_PATH}
